@@ -1,0 +1,46 @@
+
+
+### Summary
+
+1. **Check Balance:**
+   - Connects to a local Ethereum node.
+   - Retrieves and logs the balance of a specified Ethereum address in Ether.
+
+2. **Send Transaction:**
+   - Connects to the same local Ethereum node.
+   - Sends 5 Ether from one address to another.
+
+3. **Connect and Read Balance:**
+   - Connects to the local Ethereum node.
+   - Retrieves and logs the list of accounts, their balance in Wei, and its conversion to Ether.
+   - Converts Ether back to Wei and logs the result.
+
+4. **Read and Write to Smart Contract:**
+   - Connects to the local Ethereum node.
+   - Creates a contract instance using ABI and address.
+   - Reads data from the smart contract's `getter` function.
+   - Optionally, write data to the smart contract's `setter` function (commented out).
+
+5. **Send Ether:**
+   - Connects to the local Ethereum node.
+   - Sends 10 Ether from one account to another.
+   - Logs the transaction hash.
+
+### Commands to Run
+
+1. **Install Dependencies:**
+   ```bash
+   npm install web3
+   ```
+
+2. **Run Each Script:**
+   - Save each code block in separate files, for example, `checkBalance.js`, `sendTransaction.js`, `connectAndRead.js`, and `sendEther.js`.
+   - Run each script using Node.js:
+     ```bash
+     node checkBalance.js
+     node sendTransaction.js
+     node connectAndRead.js
+     node sendEther.js
+     ```
+
+ https://www.youtube.com/watch?v=hF0sNd66xO4    
